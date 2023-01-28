@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap');
+*{
+    font-family: 'Caveat', cursive;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: rgb(255, 149, 0);
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+p{
+    padding: 10px;
+    margin: 0;
+    font-size: 29px;
+}
+.attempts{
+    background-color: rgb(247, 157, 84);
+}
+.hints{
+    background-color: rgb(160, 91, 0);
+}
+hr{
+    border: 2px black solid;
+    width: 60%;
+}
+button{
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(140, 77, 26);
+    color: white;
+}
+button:hover{
+    background-color: rgba(255, 164, 6, 0.864);
+}
+.letter{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    justify-content: center;
+}
+h1{
+    font-size: 35px;
+}
+.new_game{
+    order: 1;
+    width: 100%;
+    margin: 10px;
+}
+.letter:disabled{
+    background-color: rgb(68, 68, 67);
+}
+.right{
+    background-color: rgb(255, 203, 92)!important;
+    box-shadow: 0 0 10px rgb(255, 235, 18);
+    transform: scale(1.1);
+}
+.open{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 148, 66);
+    color: azure;
+    font-size: 40px;
+}
